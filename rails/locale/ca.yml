@@ -64,8 +64,8 @@ ca:
         one: aproximadament 1 any
         other: aproximadament %{count} anys
       almost_x_years:
-        one: casi 1 any
-        other: casi %{count} anys
+        one: quasi 1 any
+        other: quasi %{count} anys
       half_a_minute: mig minut
       less_than_x_minutes:
         one: menys d'1 minut
@@ -93,13 +93,13 @@ ca:
       hour: Hora
       minute: Minut
       month: Mes
-      second: Segun
+      second: Segon
       year: Any
   errors: &errors
     format: ! '%{attribute} %{message}'
     messages:
       accepted: ha de ser acceptat
-      blank: no pot estar en blanc
+      blank: no pot quedar en blanc
       confirmation: no coincideix
       empty: no pot estar buit
       equal_to: ha de ser igual a %{count}
@@ -107,7 +107,7 @@ ca:
       exclusion: està reservat
       greater_than: ha de ser més gran que %{count}
       greater_than_or_equal_to: ha de ser més gran o igual a %{count}
-      inclusion: no està inclós a la llista
+      inclusion: no està inclòs a la llista
       invalid: no és vàlid
       less_than: ha de ser menor que %{count}
       less_than_or_equal_to: ha de ser menor o igual a %{count}
@@ -116,8 +116,8 @@ ca:
       odd: ha de ser imparell
       record_invalid: ! 'La validació ha fallat: %{errors}'
       taken: no està disponible
-      too_long: és massa llarg (%{count} caràcters màxim)
-      too_short: és massa curt (%{count} caràcters mínim)
+      too_long: és massa llarg (màxim %{count} caràcters)
+      too_short: és massa curt (mínim %{count} caràcters)
       wrong_length: no té la longitud correcte (%{count} caràcters exactament)
     template:
       body: ! 'Hi ha hagut problemes amb els següents camps:'
@@ -128,9 +128,9 @@ ca:
     select:
       prompt: Si us plau tria
     submit:
-      create: Crear %{model}
-      submit: Guardar %{model}
-      update: Actualizar %{model}
+      create: Crea %{model}
+      submit: Desar %{model}
+      update: Actualitza %{model}
   number:
     currency:
       format:
